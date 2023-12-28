@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Taniya Pal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Certifications</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Taniya Pal </span><br>From India</h1>
+            </div>
+        </div>
+        </div>
+        <!----------------about----------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user1.png.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>All About My Education and Skills.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Developer</span><br>Designing Web/App interfaces</li>
+                                <li><span>C</span></li>
+                                <li><span>C++</span></li>
+                                <li><span>Core Pthon</span></li>
+                                <li><span>Advance Python</span></li>
+                                <li><span>Html</Html></span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>Java Script</span></li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021 - Current</span><br>College at Raisoni Group Of Institution From SNDT Mumbai University</li>
+                                <li><span>2019 - 2020</span>HSC From Mahatama Gandhi Junior College with 82%</li>
+                                <li><span>2018 - 2019</span>SSC From Dayanand Arya Kanya Vidhayala</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------services------------------>
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">My Certifications</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-salesforce"></i>
+                        <h2>Salesforce Basics (By Coder Fuel Infotech)</h2>
+                        <p>The cloud computing service that specially looks into Customer Relationship Management is called salesforce.The cloud platform used in salesforce technology is Software as a Service (Saas).</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-hand-fist"></i>
+                        <h2>NSP(National Student Parliament)</h2>
+                        <p>One of the most anticipated events of Rasioni, National Student Parliament (NSP) is a platform for Students - The torchbearers of tomorrow - to debate on the issues concerning the Country and Society.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-certificate"></i>
+                        <h2>Indian Talent Search (International Level Competative Exam) </h2>
+                        <p>The Indian Talent Search Exam is one of the most Prestigious exam conducted for School Students From Class 1 to Class 10 in the form of olympiads by India Talent Olympiad. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!----------------------------portfolio------------------------------------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png.png">
+                        <div class="layer">
+                        <h3>E-Commerce App Clone</h3>
+                        <p>Online Shopping from a great selection at Amazon Shopping App Store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png.png">
+                        <div class="layer">
+                            <h3>Netflix App Clone</h3>
+                            <p>Netflix is a Streaming Service that offers a wide variety of Award-Winning TV Shows, Movies, Anime, Documentaries, and more of thousands of Shows.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png.png">
+                        <div class="layer">
+                            <h3>SocialBook</h3>
+                            <p>Create an Account or log into SocialBook. Connect with Friends and other people you know. Share photos and videos, send message and get in Connect with Your Friends.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!------------------------contact------------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>paltaniya2004@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>9307047469</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/taniya.pal.7146"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/taniya_pal63?igshid=MzNINGNKZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/taniya-pal-28549727b"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/My-Resume.pdf.lnk" dowmload class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Taniya. Made with <i class="fa-solid fa-heart"></i> by Taniya Pal</p>
+            </div>
+        </div>
+
+        <script>
+
+           var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents = document.getElementsByClassName("tab-contents");
+
+           function opentab(tabname){
+              for(tablink of tablinks){
+                 tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzUnv0sXyz3-_87ldsrR8oVSwq2sYIA6mjIjcCYaRxb4iitcMvRn25_Itrv5fRCPXuK/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "<essage sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>
